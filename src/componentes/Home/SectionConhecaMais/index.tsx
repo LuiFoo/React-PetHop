@@ -50,6 +50,7 @@ function SectionConhecaMais() {
                     corFonte = '#FEF2EC'
                     corFundo = '#454545'
                     fonteLargura = '500'
+                    padding=''
                     >
                         Saiba mais!
                     </LinksBotaoStyled>

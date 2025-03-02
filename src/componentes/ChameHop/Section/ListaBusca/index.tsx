@@ -1,9 +1,11 @@
 import styled from "styled-components";
 
 const ListaStyled = styled.ul`
-    display: flex;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 20vw 15vw 15vw 20vw 14vw;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 1vw;
     margin: 5.5rem 0 3.5rem 0;
 `
 
@@ -19,7 +21,7 @@ const SelectInput = styled.select`
     outline: none; /* Remove o foco azul padrão */
     background-color: #ececec;
     color: #454545;
-    padding: 0.8rem 20rem 0.8rem 1rem;
+    padding: 0.8rem 0 0.8rem 1rem;
     border: none;
     border-radius: 4px;
     font-family: "Montserrat", serif;
@@ -29,7 +31,7 @@ const SelectInput = styled.select`
 const TextInput = styled.input`
     color: #454545;
     background-color: #ececec;
-    padding: 0.8rem 12rem 0.8rem 1rem;
+    padding: 0.8rem 0rem 0.8rem 1rem;
     border: none;
     border-radius: 4px;
     font-family: "Montserrat", serif;
@@ -43,7 +45,7 @@ const TextInput = styled.input`
 const DataInput = styled.input`
     color: #454545;
     background-color: #ececec;
-    padding: 0.8rem 5rem 0.8rem 1rem;
+    padding: 0.8rem 0 0.8rem 1rem;
     border: none;
     border-radius: 4px;
     font-family: "Montserrat", serif;
@@ -76,12 +78,12 @@ function ListaDetalhes() {
         <ListaStyled>
             <ItemStyled>
                 
-            <LabelText htmlFor="Servico">Serviço</LabelText>
-            <SelectInput id="opcoes" name="servico">
-                <option value="1">Selecione...</option>
-                <option value="2">Opção 2</option>
-                <option value="3">Opção 3</option>
-            </SelectInput>
+                <LabelText htmlFor="Servico">Serviço</LabelText>
+                <SelectInput id="opcoes" name="servico">
+                    <option value="1">Selecione...</option>
+                    <option value="2">Opção 2</option>
+                    <option value="3">Opção 3</option>
+                </SelectInput>
 
             </ItemStyled>
 

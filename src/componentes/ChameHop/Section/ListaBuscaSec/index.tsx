@@ -3,8 +3,8 @@ import ItensNaLista from "./items";
 
 const ListaStyled = styled.ul`
     display: flex;
-    justify-content: center;
-    gap: 1.5rem;
+    gap: 1vw; /* Espaçamento entre os itens */
+    justify-content: center; /* Centraliza o grid */
 `
 
 function ListaDetalhesSec() {

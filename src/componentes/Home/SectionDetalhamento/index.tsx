@@ -3,7 +3,6 @@ import PintinhoColo from '../../../assets/PintinhiMao.png';
 import CaoCarro from '../../../assets/CachorroCarro.png';
 
 import styled from "styled-components";
-import { Link } from 'react-router-dom';
 import { LinksBotaoStyled } from '../../reutilizaveis/Links';
 
 const SectionDetaStyled = styled.section`

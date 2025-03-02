@@ -10,13 +10,57 @@ const NavegacaoLinks = styled.nav`
 function NavegacaoHeader() {
     return (
         <NavegacaoLinks>
-            <LinksStyled to='/chame-um-hop'>Chame um HOP</LinksStyled>
-            <LinksStyled to='/'>Seja um HOP</LinksStyled>
-            <LinksStyled to='/'>Sobre nós</LinksStyled>
-            <LinksStyled to='/'>Serviços</LinksStyled>
-            <LinksStyled to='/'>FAQ</LinksStyled>
+            <LinksStyled
+            to='/chame-um-hop'
+            tamanhoFonte=''
+            corFonte=''
+            fonteLargura=''
+            >
+                Chame um HOP</LinksStyled>
+                
+            <LinksStyled
+            to='/chame-um-hop'
+            tamanhoFonte=''
+            corFonte=''
+            fonteLargura=''
+            >
+                Seja um HOP</LinksStyled>
 
-            <LinksBotaoStyled to='/'>Entre / Cadastre-se</LinksBotaoStyled>
+            <LinksStyled
+            to='/chame-um-hop'
+            tamanhoFonte=''
+            corFonte=''
+            fonteLargura=''
+            >
+                
+                Sobre nós</LinksStyled>
+
+            <LinksStyled
+            to='/chame-um-hop'
+            tamanhoFonte=''
+            corFonte=''
+            fonteLargura=''
+            >
+            
+                Serviços</LinksStyled>
+
+            <LinksStyled
+            to='/chame-um-hop'
+            tamanhoFonte=''
+            corFonte=''
+            fonteLargura=''
+            >
+                FAQ</LinksStyled>
+
+            <LinksBotaoStyled
+            to='/chame-um-hop'
+            tamanhoFonte=''
+            corFonte=''
+            corFundo=''
+            fonteLargura=''
+            padding=''
+            >
+                Entre / Cadastre-se</LinksBotaoStyled>
 
         </NavegacaoLinks>
     )

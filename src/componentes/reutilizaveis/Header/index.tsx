@@ -15,7 +15,12 @@ function Header() {
     return (
         <HeaderPadrao>
             <Link to='/'>
-                <ReutilizavelTituloH2>PETHOP.</ReutilizavelTituloH2>
+                <ReutilizavelTituloH2
+                larguraFonte='800'
+                tamanhoFonte='24px'
+                corFonte='#8ED9ED'
+            >
+                PETHOP.</ReutilizavelTituloH2>
             </Link>
             <NavegacaoHeader />
         </HeaderPadrao>

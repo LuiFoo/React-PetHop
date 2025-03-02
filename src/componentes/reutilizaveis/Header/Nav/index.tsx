@@ -19,7 +19,7 @@ function NavegacaoHeader() {
                 Chame um HOP</LinksStyled>
                 
             <LinksStyled
-            to='/chame-um-hop'
+            to='/'
             $tamanhoFonte=''
             $corFonte=''
             $fonteLargura=''
@@ -27,7 +27,7 @@ function NavegacaoHeader() {
                 Seja um HOP</LinksStyled>
 
             <LinksStyled
-            to='/chame-um-hop'
+            to='/'
             $tamanhoFonte=''
             $corFonte=''
             $fonteLargura=''
@@ -36,7 +36,7 @@ function NavegacaoHeader() {
                 Sobre nós</LinksStyled>
 
             <LinksStyled
-            to='/chame-um-hop'
+            to='/'
             $tamanhoFonte=''
             $corFonte=''
             $fonteLargura=''
@@ -45,7 +45,7 @@ function NavegacaoHeader() {
                 Serviços</LinksStyled>
 
             <LinksStyled
-            to='/chame-um-hop'
+            to='/'
             $tamanhoFonte=''
             $corFonte=''
             $fonteLargura=''
@@ -53,7 +53,7 @@ function NavegacaoHeader() {
                 FAQ</LinksStyled>
 
             <LinksBotaoStyled
-            to='/chame-um-hop'
+            to='/'
             $tamanhoFonte=''
             $corFonte=''
             $corFundo=''

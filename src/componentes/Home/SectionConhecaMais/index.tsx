@@ -28,17 +28,18 @@ function SectionConhecaMais() {
             <AsideTextBotao>
 
                 <ReutilizavelTituloH2
-                tamanhoFonte = '35px'
-                corFonte = '#2B7799'
-                larguraFonte = '800'
+                $larguraFonte = '800'
+                $tamanhoFonte = '35px'
+                $corFonte = '#2B7799'
+
                 >
                     Conheça mais a PETHOP.
                 </ReutilizavelTituloH2>
 
                 <ReutilizavelParagrafo
-                tamanhoFonte = '22px'
-                corFonte = '#454545'
-                larguraFonte = '800'
+                $larguraFonte = '800'
+                $tamanhoFonte = '22px'
+                $corFonte = '#454545'
                 >
                     Priorizar o bem-estar e o conforto dos animais transportados, assegurando que cada viagem seja feita com cuidado e atenção às necessidades específicas de cada animal.
                 </ReutilizavelParagrafo>
@@ -46,11 +47,11 @@ function SectionConhecaMais() {
                 <div>
                     <LinksBotaoStyled 
                     to='/'
-                    tamanhoFonte = '16px'
-                    corFonte = '#FEF2EC'
-                    corFundo = '#454545'
-                    fonteLargura = '500'
-                    padding=''
+                    $tamanhoFonte = '16px'
+                    $corFonte = '#FEF2EC'
+                    $corFundo = '#454545'
+                    $fonteLargura = '500'
+                    $padding=''
                     >
                         Saiba mais!
                     </LinksBotaoStyled>

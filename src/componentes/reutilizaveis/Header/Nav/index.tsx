@@ -12,53 +12,53 @@ function NavegacaoHeader() {
         <NavegacaoLinks>
             <LinksStyled
             to='/chame-um-hop'
-            tamanhoFonte=''
-            corFonte=''
-            fonteLargura=''
+            $tamanhoFonte=''
+            $corFonte=''
+            $fonteLargura=''
             >
                 Chame um HOP</LinksStyled>
                 
             <LinksStyled
             to='/chame-um-hop'
-            tamanhoFonte=''
-            corFonte=''
-            fonteLargura=''
+            $tamanhoFonte=''
+            $corFonte=''
+            $fonteLargura=''
             >
                 Seja um HOP</LinksStyled>
 
             <LinksStyled
             to='/chame-um-hop'
-            tamanhoFonte=''
-            corFonte=''
-            fonteLargura=''
+            $tamanhoFonte=''
+            $corFonte=''
+            $fonteLargura=''
             >
                 
                 Sobre nós</LinksStyled>
 
             <LinksStyled
             to='/chame-um-hop'
-            tamanhoFonte=''
-            corFonte=''
-            fonteLargura=''
+            $tamanhoFonte=''
+            $corFonte=''
+            $fonteLargura=''
             >
             
                 Serviços</LinksStyled>
 
             <LinksStyled
             to='/chame-um-hop'
-            tamanhoFonte=''
-            corFonte=''
-            fonteLargura=''
+            $tamanhoFonte=''
+            $corFonte=''
+            $fonteLargura=''
             >
                 FAQ</LinksStyled>
 
             <LinksBotaoStyled
             to='/chame-um-hop'
-            tamanhoFonte=''
-            corFonte=''
-            corFundo=''
-            fonteLargura=''
-            padding=''
+            $tamanhoFonte=''
+            $corFonte=''
+            $corFundo=''
+            $fonteLargura=''
+            $padding=''
             >
                 Entre / Cadastre-se</LinksBotaoStyled>
 

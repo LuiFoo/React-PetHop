@@ -33,16 +33,16 @@ function SectionNossosServicos() {
         <SectionServicosStyled>
             <HeaderStyled>
                 <ReutilizavelTituloH2
-                larguraFonte = '700'
-                tamanhoFonte = '22px'
-                corFonte = '#FE4B59'
+                $larguraFonte = '700'
+                $tamanhoFonte = '22px'
+                $corFonte = '#FE4B59'
                 >
                     Nossos Serviços</ReutilizavelTituloH2>
 
                 <ReutilizavelParagrafo
-                larguraFonte = '800'
-                tamanhoFonte = '30px'
-                corFonte = '#454545'
+                $larguraFonte = '800'
+                $tamanhoFonte = '30px'
+                $corFonte = '#454545'
                 >
                     Nós oferecemos diversos serviços de acordo com a sua necessidade!</ReutilizavelParagrafo>
             </HeaderStyled>

@@ -78,8 +78,8 @@ const ValorLista = styled.p`
 function ItemsListaUsuarios() {
     return (
         <ListaUsuarios>
-            {usuarios.map((item) => (
-                <li >
+            {usuarios.map((item, index) => (
+                <li key={index} >
                     <ItemUsuario>
                         <figure>
                             <img src={item.src} alt={`Imagem de ${item.nome}`} />

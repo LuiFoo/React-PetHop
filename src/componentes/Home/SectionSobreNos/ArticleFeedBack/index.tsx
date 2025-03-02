@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import ImagemSthefanie from '../../../../assets/sthefanieImagem.svg'
-import { ReutilizavelParagrafo, ReutilizavelTituloH2 } from '../../../reutilizaveis/Texto';
+import { ReutilizavelTituloH2 } from '../../../reutilizaveis/Texto';
 
 const FeedBackDiv = styled.div`
     display: flex;
@@ -53,9 +53,9 @@ function ArticleFeedBack() {
             <FeedBackDiv>
 
                 <ReutilizavelTituloH2
-                larguraFonte='700'
-                tamanhoFonte='20px'
-                corFonte='#FEF2EC'
+                $larguraFonte='700'
+                $tamanhoFonte='20px'
+                $corFonte='#FEF2EC'
                 >
                     Feedback</ReutilizavelTituloH2>
 

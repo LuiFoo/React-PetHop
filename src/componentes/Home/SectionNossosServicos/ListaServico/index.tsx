@@ -3,12 +3,12 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 interface ArticleContainerProps {
-    corFundo: string;
+    $corFundo?: string;
 }
 
 const ArticleContainer = styled.article<ArticleContainerProps>`
     display: flex;
-    background-color: ${props => props.corFundo || '#000'};
+    background-color: ${props => props.$corFundo || '#000'};
     border-radius: 10px;
     flex-direction: column;
     padding: 3.75rem 3.37rem 2rem 3.37rem;
@@ -53,7 +53,7 @@ function ListaServico({ coresFundo, imagem, titulo, paragrafo, url }: ListaServi
     return (
         <ArticleLisItem>
             <ArticleContainer
-            corFundo={coresFundo}
+            $corFundo={coresFundo}
             >
                 <figure>
                     <img src={imagem} alt="Ícone representando Graphic Design" />

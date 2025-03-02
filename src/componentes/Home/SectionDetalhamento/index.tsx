@@ -62,11 +62,11 @@ function SectionDetalhamento() {
                 <p>Na PetHop, não apenas transportamos pets, mas também nos dedicamos a fortalecer os laços entre tutores e seus amados animais de estimação. Nosso objetivo é tornar a cidade um lugar mais feliz e acolhedor para todos. Com serviços cuidadosos e atenciosos, garantimos que cada viagem seja uma experiência agradável e segura para os pets e seus donos.</p>
                 <LinksBotaoStyled 
                 to=''
-                tamanhoFonte='16px'
-                corFonte='#FEF2EC'
-                corFundo='#FE4B59'
-                fonteLargura=''
-                padding='0.8rem 3rem'
+                $tamanhoFonte='16px'
+                $corFonte='#FEF2EC'
+                $corFundo='#FE4B59'
+                $fonteLargura='700'
+                $padding='0.8rem 3rem'
                 >
                     Saiba mais</LinksBotaoStyled>
             </ArticleSecStyled>

@@ -7,6 +7,7 @@ import imagemUsu5 from '../../../../assets/usuarios/user5.png'
 import imagemUsu6 from '../../../../assets/usuarios/user6.png'
 import imagemUsu7 from '../../../../assets/usuarios/user7.png'
 import imagemUsu8 from '../../../../assets/usuarios/user8.png'
+import { Link } from 'react-router-dom';
 
 interface Usuario {
     nome: string;
@@ -49,6 +50,10 @@ const SectionContainer = styled.section`
     background-color:rgb(208, 207, 207);
     padding: 3rem 0 2rem 3rem;
     width: 100%;
+
+    &:hover {
+        background-color:rgba(177, 177, 177, 0.22); /* Fundo alterado ao passar o mouse */
+    }
 `
 
 const TituloLista = styled.h3`
@@ -75,22 +80,28 @@ const ValorLista = styled.p`
     color: #F64B4B;
 `
 
+const LinkUsuStyled = styled(Link)`
+    text-decoration: none;
+`;
+
 function ItemsListaUsuarios() {
     return (
         <ListaUsuarios>
             {usuarios.map((item, index) => (
                 <li key={index} >
-                    <ItemUsuario>
-                        <figure>
-                            <img src={item.src} alt={`Imagem de ${item.nome}`} />
-                        </figure>
-                        <SectionContainer>
-                            <TituloLista>{item.nome}</TituloLista>
-                            <ParagrafoLista>{item.endereco}</ParagrafoLista>
-                            <ParagrafoLista>{item.detalhes}</ParagrafoLista>
-                            <ValorLista><strong>R${item.valor}</strong></ValorLista>
-                        </SectionContainer>
-                    </ItemUsuario>
+                    <LinkUsuStyled to='/'>
+                        <ItemUsuario>
+                            <figure>
+                                <img src={item.src} alt={`Imagem de ${item.nome}`} />
+                            </figure>
+                            <SectionContainer>
+                                <TituloLista>{item.nome}</TituloLista>
+                                <ParagrafoLista>{item.endereco}</ParagrafoLista>
+                                <ParagrafoLista>{item.detalhes}</ParagrafoLista>
+                                <ValorLista><strong>R${item.valor}</strong></ValorLista>
+                            </SectionContainer>
+                        </ItemUsuario>
+                    </LinkUsuStyled>
                 </li>
             ))}
         </ListaUsuarios>

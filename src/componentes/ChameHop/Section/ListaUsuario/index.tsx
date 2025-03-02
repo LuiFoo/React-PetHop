@@ -47,7 +47,7 @@ const SectionContainer = styled.section`
     border-radius: 0.5rem;
     height: 100%;
     background-color:rgb(208, 207, 207);
-    padding: 3rem 0 1.5rem 1rem;
+    padding: 3rem 0 2rem 3rem;
     width: 100%;
 `
 
